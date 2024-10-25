@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p> <b>"O senhor é o nosso Pastor e nada nos faltará".</b></p>
+    
+    <script>
+        let nome = prompt('Qual é o seu nome?')
+        document.write(`Seu nome é <strong>${nome}</strong> e ele tem ${nome.length} letras.<br/>`)
+        document.write(`Seu nome em letras  maiúsculas é <strong>${nome.toUpperCase()}</strong><br/>`)
+        document.write(`Seu nome em letras minúsculas é <strong>${nome.toLowerCase()}</strong>`)
+     /* 
+    Formatos de strins:
+    c.length => Diz quantos carácters tem a string.
+    s.toUpperCase() => Tranforma a string em maiúscula.
+    s.toLowerCase() => Tranforma a string em minúscula.
+
+    Conversão de números:
+    .toFixed:Pegando como exemplo o número 1545.5 em uma variávem n1. Usamos n1 seguido de .toFixed(2) para termos 2 casas decimasi após o ponto.
+    .toFixed(2).replace('', '') Para trocar o ponto por vírgula usamos n1 que é a nossa variável do exemplo, seguida por .tofixed(2).replace('.', ',') assim estamos disendo que vamos trocar o ponto por vírgula.
+    .tolocaleString('pt-Br', {style: 'currency', currency: 'BRL'}): Este comando é usado para converter numero 1545.50 em valor em dinheiro, no caso deste exemplo foi convertido em R$.   n1.tolocaleString('pt-Br', {style: 'currency', currency: 'BRL'}) R$ 1,545.50. Valr lembrar que podemos converter em qualquer moeda, Dolar, Euro,Real basta trocar as ultimas siglas de 'BRL' para 'USL' se for Dolar ou 'EUR' se for Euro e assim por diante.  
+    */  
+    </script>
+   
+</body>
+</html>

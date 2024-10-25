@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso em vídeo</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p> O senhor é o nosso Pastor e nada nos faltará.</p>
+    <script>
+        let n1 = Number(prompt('Digite um número'));//Para converter uma string para número sem se perocupar com o tipo do número, ao inbés de usar o parseFloat ou parseInt, usamos apenas "Number"
+        let n2 = Number(prompt('Digite outro número'));
+        let soma = n1 + n2
+        //Quando temos que concatenar várias variáveis, o código fica muito grande, então é uma boa prática usar a template strig alert(` `${}) com ela conseguimos simplifcar e reduzir linhas obtendo o mesmo resultado. Veja no exemplo abaixo:
+
+        alert(`A soma de ${n1} + ${n2} = ${soma}`)
+    </script>
+</body>
+</html>
